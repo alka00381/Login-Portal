@@ -1,0 +1,73 @@
+*{ 
+    box-sizing: border-box;
+}
+body{
+    background: url('image.jpg') no-repeat center center fixed ;
+    background-size: cover;
+}
+.conatainer{
+    color:  white;
+    position: absolute;
+    top: 38%;
+    left: 43%;
+    width: 28%;
+
+}
+.container h1{
+    
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 73%; 
+    
+    margin: 12px opx;
+    border-bottom: 2px solid purple;
+}
+.box input{  
+    background: none;
+    width: 99%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: white;
+}
+/*.box input{
+    font-size: 40%;
+    WIDTH: 99%;
+    padding: 3% 20%;
+    
+    
+    FONT-SIZE: 18PX;
+
+
+}*/
+.btn{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 30;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+    
+}
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
